@@ -35,6 +35,39 @@ import {
 declare global {
 
   namespace StencilComponents {
+    interface AppHardinessZonePicker {
+
+    }
+  }
+
+  interface HTMLAppHardinessZonePickerElement extends StencilComponents.AppHardinessZonePicker, HTMLStencilElement {}
+
+  var HTMLAppHardinessZonePickerElement: {
+    prototype: HTMLAppHardinessZonePickerElement;
+    new (): HTMLAppHardinessZonePickerElement;
+  };
+  interface HTMLElementTagNameMap {
+    'app-hardiness-zone-picker': HTMLAppHardinessZonePickerElement;
+  }
+  interface ElementTagNameMap {
+    'app-hardiness-zone-picker': HTMLAppHardinessZonePickerElement;
+  }
+  namespace JSX {
+    interface IntrinsicElements {
+      'app-hardiness-zone-picker': JSXElements.AppHardinessZonePickerAttributes;
+    }
+  }
+  namespace JSXElements {
+    export interface AppHardinessZonePickerAttributes extends HTMLAttributes {
+      'onZonesChanged'?: (event: CustomEvent) => void;
+    }
+  }
+}
+
+
+declare global {
+
+  namespace StencilComponents {
     interface AppHome {
 
     }

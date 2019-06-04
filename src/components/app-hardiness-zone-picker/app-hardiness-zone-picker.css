@@ -1,0 +1,21 @@
+app-hardiness-zone-picker ol {
+  margin: 0;
+  padding: 0;
+}
+
+app-hardiness-zone-picker li {
+  list-style: none;
+  display: inline-block;
+  padding: 4px 8px;
+  border: 1px solid #EEEEEE;
+  border-right-width: none;
+  cursor: pointer;
+  user-select: none;
+}
+app-hardiness-zone-picker li:last-of-type {
+  border-right-width: 1px;
+}
+
+app-hardiness-zone-picker .selected {
+  background-color: #EEEEEE;
+}

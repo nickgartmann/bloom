@@ -1,0 +1,11 @@
+[
+
+  {"id": "crocus", "name": "Crocus", "other_names": [], "hardiness_zones": [3,4,5,6,7,8], 
+   "blooms": [2,3], "colors": ["#9159CB", "#E2AF00"], "is_perennial": true, "is_annual": false, "exposure": ["full-sun", "partial-shade"]},
+
+  {"id": "chiondoxa", "name": "Chionodoxa", "other_names": ["Glory of the Snow"], "hardiness_zones": [3,4,5,6,7,8], 
+   "blooms": [2,3], "colors": ["#98a5f3"], "is_perennial": true, "is_annual": false, "exposure": ["full-sun", "partial-sun"]},
+
+  {"id": "iris-reticulata", "name": "Iris Reticulata", "other_names": ["Netted Iris"], "hardiness_zones": [5,6,7,8,9], 
+   "blooms": [2,3], "colors": ["#7180D5", "#8797FF"], "is_perennial": true, "is_annual": false, "exposure": ["full-sun", "partial-sun"]}
+]

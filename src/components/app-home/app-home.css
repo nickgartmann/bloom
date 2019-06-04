@@ -1,26 +1,20 @@
-.app-home {
-  padding: 10px;
+.filters {
+  margin-bottom: 24px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
 }
 
-button {
-  background: #5851ff;
-  color: white;
-  margin: 8px;
-  border: none;
-  font-size: 13px;
-  font-weight: 700;
-  text-transform: uppercase;
-  padding: 16px 20px;
-  border-radius: 2px;
-  box-shadow: 0 8px 16px rgba(0,0,0,.1), 0 3px 6px rgba(0,0,0,.08);
-  outline: 0;
-  letter-spacing: .04em;
-  transition: all .15s ease;
-  cursor: pointer;
+table th {
+  text-align: left;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #F0F0F0;
 }
-  
-button:hover {
-  box-shadow: 0 3px 6px rgba(0,0,0,.1), 0 1px 3px rgba(0,0,0,.1);
-  transform: translateY(1px);
+table td {
+  height: 30px;
+  border-bottom: 1px solid #F0F0F0;
+}
+table td.animated {
 }
 

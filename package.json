@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "@stencil/core": "^0.11.0",
-    "@stencil/router": "^0.2.5"
+    "@stencil/router": "^0.2.5",
+    "request": "^2.87.0"
   },
   "devDependencies": {
     "@types/jest": "^23.3.1",
